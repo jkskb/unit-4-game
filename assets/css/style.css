@@ -1,0 +1,55 @@
+body{
+   background-image: url(brickwall.jpg);
+   align-content: center;
+}
+
+div{
+  width: 75%;
+  margin: 10px;
+}
+
+.header {
+  background-color: aqua;
+  color: black;
+  padding: 10px
+}
+
+.rules {
+  background-color: orchid;
+  color: black;
+  padding: 20px;
+  font-size: 12px;
+  line-height: 5px;
+
+}
+
+.compRandomNumber {
+  background-color: rgb(12, 206, 12);
+  color: black;
+  padding: 40px 0px 40px 10px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 5px;
+}
+
+#randomNumber {
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+#gameResult {
+  background-color: rgb(12, 206, 12);
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+img {
+    width: 125px;
+    height: 125px;
+  }
+
+.totalScore {
+  background-color: rgb(12, 206, 12);
+  font-size: 20px;
+  padding-left: 20px;
+}
