@@ -15,47 +15,52 @@
 
 <body>
 
-    <div class="header">
-        <h1>Crystals Collector!</h1>
-    </div>
+    <div id="container">
+        <div class="header">
+            <h1>Crystals Collector!</h1>
+        </div>
+          
+        <ul class="rules">
+            <li>You will be given a random number at the start of the game.</li>
+            <li>There are 4 crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+            <li>You will win the game be matching your total score to the random number. You lose the game if your score goes above the random number.</li>
+            <li>The value of each crystal is hidden from you until you click on it.</li>
+            <li>Each time the game starts, the game will change the values of each crystal.</li>
+        </ul>
 
-    
-    <div class="rules">
-        <P>You will be given a random number at the start of the game.</P>
+        <div class="flex-container">  
+        
+            <div class="compRandomNumber">
+                <p>Match this random number:
+                    <span id= "randomNumber"></span>
+                </p>
+            </div>
+            
+            <div id="gameResult">
+                <p>Wins: </p>
+                    <span id= "numberWins"></span>  
+                <p>Losses: </p>
+                    <span id= "numberLosses"></span>
+            </div>
 
-        <p>There are 4 crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <div class="totalScore">
+                <p>Yout total score is:
+                    <br>
+                    <br>
+                    <span id="score"></span>
+                </p>   
+            </div>                 
 
-        <p>You will win the game be matching your total score to the random number. You lose the game if your score goes above the random number.</p>
+            <div class="crystals">
+                <img id="green" src=".\assets\images\green.jpg" alt="emerald">
+                <img id="purple" src=".\assets\images\purple.jpg" alt="amethyst">
+                <br>
+                <img id="red" src=".\assets\images\red.jpg" alt="ruby">
+                <img id="yellow" src=".\assets\images\yellow.jpg" alt="topaz">
+            </div>   
+        
 
-        <p>The value of each crystal is hidden from you until you click on it.</p>
-
-        <p>Each time the game starts, the game will change the values of each crystal.</p>
-    </div>
-    
-    <div class="compRandomNumber">
-        <p>Match this random number:
-            <span id= "randomNumber"></span>
-        </p>
-    </div>
-    
-    <div id="gameResult">
-        <p>Wins: </p>
-            <span id= "numberWins"></span>  
-        <p>Losses: </p>
-            <span id= "numberLosses"></span>
-    </div>
-
-    <div class="crystals">
-        <img id="green" src=".\assets\images\green.jpg" alt="emerald">
-        <img id="purple" src=".\assets\images\purple.jpg" alt="amethyst">
-        <img id="red" src=".\assets\images\red.jpg" alt="ruby">
-        <img id="yellow" src=".\assets\images\yellow.jpg" alt="topaz">
-    </div>
-    
-    <div class="totalScore">
-        <p>Yout total score is:
-            <span id="score"></span>
-        </p>   
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

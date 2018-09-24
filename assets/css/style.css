@@ -1,55 +1,81 @@
 body{
    background-image: url(brickwall.jpg);
-   align-content: center;
+}
+
+#container {
+  margin: auto;
+  width: 75%;
 }
 
 div{
-  width: 75%;
   margin: 10px;
 }
 
 .header {
-  background-color: aqua;
+  background-color:#4aafff;
   color: black;
-  padding: 10px
+  padding: 5px;
+  text-align: center;
 }
 
-.rules {
-  background-color: orchid;
+ul {
+  background-color: #d780f9;
   color: black;
-  padding: 20px;
+  padding: 5px 5px 5px 15px;
   font-size: 12px;
-  line-height: 5px;
+  font-weight: bold;
+  margin: 10px;
+}
 
+p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.flex-container {
+  display: flex;
+  background-color: #4aafff;
+  text-align: center;
 }
 
 .compRandomNumber {
-  background-color: rgb(12, 206, 12);
+  background-color: #0cce0c;
+  width: 20%;
+  font-size: 40px;
   color: black;
-  padding: 40px 0px 40px 10px;
-  font-size: 20px;
   font-weight: bold;
-  line-height: 5px;
+  word-wrap: break-word;
 }
 
 #randomNumber {
-  font-size: 30px;
-  padding-left: 20px;
+  font-size: 60px;
 }
 
 #gameResult {
-  background-color: rgb(12, 206, 12);
-  font-size: 20px;
-  padding-left: 20px;
+  width: 20%;
+  background-color: #0cce0c;
+  font-size: 30px;
+}
+
+#numberWins, #numberLosses {
+  font-size: 60px;
+  font-weight: bold;
 }
 
 img {
     width: 125px;
     height: 125px;
+    margin-top: 5px;
   }
 
 .totalScore {
-  background-color: rgb(12, 206, 12);
+  background-color: #0cce0c;
   font-size: 20px;
-  padding-left: 20px;
+  width: 20%;
+}
+
+#score {
+  font-size: 70px;
+  background:#dc1a41;
+  color: white;
 }
